@@ -1,0 +1,7 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<!--타임리프의 장점: 서버돌리지 않고 그냥 열어도 hello! empty 라는 껍데기 볼 수 있음-->
+<!--템플릿 엔진으로써 동작을 하면 text="" 안에 있는 내용으로 치환되어 보여짐-->
+<p th:text="'hello ' + ${name}">hello! empty</p>
+</body>
+</html>
